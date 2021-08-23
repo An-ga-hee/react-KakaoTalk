@@ -7,21 +7,26 @@ function MyProfile() {
     <div
       style={{
         width: "100%",
-        height: "70px",
         display: "flex",
         justifyContent: "space-between",
-        paddingBottom: "30px",
         borderBottom: "1px solid #ddd",
-        margin: "0 25px",
+        paddingBottom: "20px",
+        boxSizing: "border-box",
         alignItems: "center",
       }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>
         <Image src={myprofile} width={60} style={{ borderRadius: "22.5px" }} />
         <div
-          style={{ marginLeft: "15px", fontSize: "14px", fontWeight: "700" }}
+          style={{
+            marginLeft: "15px",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+          }}
         >
-          가희
+          <span style={{ fontSize: "14px", fontWeight: "700" }}>가희</span>
+          <p style={{ fontSize: "12px", margin: 0 }}>happy</p>
         </div>
       </div>
       <div
@@ -34,7 +39,6 @@ function MyProfile() {
           alignItems: "center",
           fontSize: "12px",
           padding: "0 8px",
-          marginRight: "25px",
         }}
       >
         Dive - Ed Sheeran ▶

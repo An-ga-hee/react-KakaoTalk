@@ -8,7 +8,10 @@ function Nav() {
     <div
       style={{
         width: "80px",
-        height: "100vh",
+        position: "fixed",
+        top:0,
+        bottom:0,
+        left:0,
         backgroundColor: "#ececec",
         display: "flex",
         flexDirection: "column",

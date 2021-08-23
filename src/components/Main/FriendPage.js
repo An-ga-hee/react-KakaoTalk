@@ -5,7 +5,7 @@ import MyProfile from "./FriendPage/MyProfile";
 
 function FriendPage() {
   return (
-    <div style={{ width: "100%" }}>
+    <div style={{ width: "100%", marginLeft: "80px", padding:"0 25px" }}>
       <FriendHeader />
       <MyProfile />
       <FriendList />

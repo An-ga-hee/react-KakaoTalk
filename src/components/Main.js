@@ -6,7 +6,13 @@ import MorePage from "./Main/MorePage";
 
 function Main() {
   return (
-    <div style={{ display: "flex", width: "100%", height: "100vh" }}>
+    <div
+      style={{
+        display: "flex",
+        // width: "100%",
+        overflow: "hidden",
+      }}
+    >
       <Nav />
       <FriendPage />
       {/* <ChatPage />
