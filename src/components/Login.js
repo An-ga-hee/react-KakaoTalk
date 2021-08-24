@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFillChatFill } from "react-icons/bs";
+import { RiKakaoTalkFill } from "react-icons/ri";
 
 function Login(props) {
   return (
@@ -15,7 +15,7 @@ function Login(props) {
         backgroundColor: "#FEE500",
       }}
     >
-      <BsFillChatFill size={150} color="#333" />
+      <RiKakaoTalkFill size={150} color="#333" />
       <div style={{ display: "flex", flexDirection: "column" }}>
         <input type="text" placeholder="ID" style={{ marginBottom: "5px" }} />
         <input type="password" placeholder="Password" />

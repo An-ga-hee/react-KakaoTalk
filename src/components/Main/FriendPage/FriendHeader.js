@@ -14,12 +14,9 @@ function FriendHeader() {
       }}
     >
       <h1 style={{ fontSize: "22px", fontWeight: "700" }}>친구</h1>
-      <div style={{display:"flex", gap:"25px", justifyContent:"flex-end"}}>
+      <div style={{ display: "flex", gap: "25px", justifyContent: "flex-end" }}>
         <BsSearch size={20} style={{ color: "#777" }} />
-        <BsPersonPlusFill
-          size={25}
-          style={{ color: "#777" }}
-        />
+        <BsPersonPlusFill size={25} style={{ color: "#777" }} />
       </div>
     </div>
   );
